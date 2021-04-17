@@ -1,0 +1,52 @@
+.newBtn{
+  width:50px;
+  height: 55px;
+  background-color: #16a085 i !important;
+  color: white;
+  box-shadow: 5px 5px 15px -5px black ;
+  border-radius: 50%;
+}
+
+.centre-div {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10rem;
+  box-shadow: 40px;
+  
+}
+
+input{
+
+  text-align: center;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500px;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  margin-right: 20px;
+}
+
+h1{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:  #400e7c;
+}
+
+li{
+
+  list-style: none;
+  text-align: center;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500px;
+  width: 60%;
+  margin-right: 20px;
+  color: blue;
+}

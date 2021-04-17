@@ -93,6 +93,25 @@ class GFG1
     }
 }
 
+
+//question 4
+
+import React from 'react';
+
+class myComponent extends React.Component {
+  componentDidMount() {
+    const apiUrl = 'www.example.com/api/get/1';
+    fetch(apiUrl)
+      .then((response) => response.json())
+      .then((data) => console.log('This is your data', data));
+  }
+  render() {
+    return <h1>my Component has Mounted, Check the browser 'console' </h1>;
+  }
+}
+export default myComponent;
+
+
 //question 5
 class SortByNum{
     private Integer id;
